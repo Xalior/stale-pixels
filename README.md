@@ -1,4 +1,4 @@
-# understrap-child
+# stale-pixels
 Basic Child Theme for UnderStrap Theme Framework: https://github.com/holger1411/understrap
 
 ## How it works
@@ -13,10 +13,10 @@ Uses the Enqueue method the load and sort the CSS file the right way instead of 
 1. Install the parent theme UnderStrap first: https://github.com/holger1411/understrap
 - IMPORTANT: If you download it from GitHub make sure you rename the "understrap-master.zip" file just to "understrap.zip" or you might have problems using this child themes !!
 
-2. Just upload the understrap-child folder to your wp-content/themes directory
+2. Just upload the stale-pixels folder to your wp-content/themes directory
 3. Go into your WP admin backend 
 4. Go to "Appearance -> Themes"
-5. Activate the UnderStrap Child theme
+5. Activate the Stale Pixels theme
 
 ## Editing
 Add your own CSS styles to /sass/theme/_child_theme.scss
