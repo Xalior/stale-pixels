@@ -15,8 +15,8 @@ var browserSyncWatchFiles = [
 // browser-sync options
 // see: https://www.browsersync.io/docs/options/
 var browserSyncOptions = {
-    proxy: "localhost/understrap/",
-    notify: false
+    proxy: "rimron.localhost.xalior.com",
+    notify: true
 };
 
 // Defining requirements
