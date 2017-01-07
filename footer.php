@@ -14,6 +14,12 @@ $container = get_theme_mod('understrap_container_type');
 
 */
 ?>
+</div>
+<script>
+    jQuery(document).ready(function ($) {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+</script>
   <div class="container-fluid">
     <?php get_sidebar('footerfull'); ?>
   </div><!-- #container -->

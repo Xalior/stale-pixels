@@ -133,7 +133,7 @@ gulp.task('scripts', function() {
     basePaths.dev + 'js/tether.js', // Must be loaded before BS4
 
     // Start - All BS4 stuff
-    basePaths.dev + 'js/bootstrap4/bootstrap.js', 
+    basePaths.dev + 'js/bootstrap4/bootstrap.js',
 
     // End - All BS4 stuff
 
@@ -148,7 +148,7 @@ gulp.task('scripts', function() {
     basePaths.dev + 'js/tether.js', // Must be loaded before BS4
 
     // Start - All BS4 stuff
-    basePaths.dev + 'js/bootstrap4/bootstrap.js', 
+    basePaths.dev + 'js/bootstrap4/bootstrap.js',
 
     // End - All BS4 stuff
 

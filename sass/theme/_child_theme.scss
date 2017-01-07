@@ -23,12 +23,17 @@ h1#header {
 h1#header a span {
   display: none;
 }
+.row > main {
+  margin: 0;
+}
 
-.content-area {
-  display: block;
+main {
+  width: 100%;
   outline: 1px solid #cccccc;
   background-color: rgba(255,255,255,0.9);
-  padding-top: 5px;
+  display: block;
+  padding: 5px 15px;
+  margin: 0 -15px;
 }
 
 

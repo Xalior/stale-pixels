@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package understrap
+ * @package stale-pixels
  */
 ?>
 
@@ -26,8 +26,7 @@
 
 <body <?php body_class(); ?>>
   <div class="hfeed site" id="page">
-    <?php
-    /*
+    <?php /*
     ?>
     <!-- ******************* The Navbar Area ******************* -->
     <div class="wrapper-fluid wrapper-navbar" id="wrapper-navbar">
@@ -70,3 +69,19 @@
 
     </div><!-- .wrapper-navbar end -->
 */ ?>
+
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8" id="banner">
+                  <h1 id="header">
+                      <a href="http://www.rimron.co.uk">
+                          <img id="stalePixels" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
+                          <span>Stale Pixels</span>
+                      </a>
+                  </h1>
+              </div>
+          </div>
+      </div>
+
+      <div class="container">
+      <!-- END OF HEADER.PHP -->
